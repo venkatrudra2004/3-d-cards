@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    
+
+    .z{
+        height:400px;
+        width: 250px;
+    }
+    #img1{
+        transform-style:preserve-3d ;
+        transform: perspective(500px) rotateY(15deg);
+        margin-right: -20px;
+        z-index: -2;
+
+
+        
+    }
+    #img2{
+        transform-style:preserve-3d ;
+        transform: perspective(500px) rotateY(15deg);
+        margin-right: -20px;
+        z-index: -1;
+       
+    }
+   
+    #img4{
+        transform-style:preserve-3d ;
+        transform: perspective(500px) rotateY(-15deg);
+        margin-left: -20px;
+        z-index: -1;
+
+    }
+    #img5{
+        transform-style:preserve-3d ;
+        transform: perspective(500px) rotateY(-15deg);
+        margin-left: -20px;
+        z-index: -2;
+
+    }
+}
